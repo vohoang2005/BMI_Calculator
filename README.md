@@ -1,6 +1,6 @@
 # BMI_Calculator
 
-## Created basic Addition Calculatoor and BMI Calculator.
+## Created basic Addition Calculator and BMI Calculator.
 ## Tool and Package usage
 * VS Code
 * HTML
