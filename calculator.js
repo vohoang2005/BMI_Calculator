@@ -35,3 +35,12 @@ app.post("/bmicalculator", function(req, res) {
 app.listen(3000, function() {
     console.log("Server started on port 3000")
 });
+
+app.get("/name", function(req,res) {
+    res.sendFile(__dirname + "/name.html");
+})
+
+app.post("/name", function(req,res) {
+    var truename = req.body.truename
+    res.send("Your name is " + truename + ".");
+})
